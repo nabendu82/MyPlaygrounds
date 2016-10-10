@@ -1,2 +1,2 @@
 # MyPlaygrounds
-My playground which i created which learning swift 3
+My playground which i created while learning swift 3
