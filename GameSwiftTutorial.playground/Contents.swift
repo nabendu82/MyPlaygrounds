@@ -42,6 +42,43 @@ for dog in dogNames {
 }
 
 
+//Classes
+
+class Dog {
+    var name: String = ""
+    var age: Int = 0
+    
+    func tellMeAbout() {
+        print("The dog name is \(name) and is \(age) year old")
+    }
+}
+
+class Bulldog: Dog {
+    var furiness = 0
+}
+
+var myDog = Dog()
+myDog.name = "Tiger"
+myDog.age = 9
+
+var otherDog = Dog()
+otherDog.name = "Fido"
+otherDog.age = 8
+
+var dogs: [Dog] = [myDog, otherDog]
+
+for dog in dogs {
+    dog.tellMeAbout()
+}
+
+var filmyDog = Bulldog()
+filmyDog.name = "Jackie"
+filmyDog.age = 23
+filmyDog.furiness = 10
+
+
+
+
 
 
 
